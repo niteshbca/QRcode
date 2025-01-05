@@ -12,7 +12,7 @@ const AdminLogin = () => {
     e.preventDefault();
 
     // Use the API URL from the .env file
-    const apiUrl = "http://localhost:5000";
+    const apiUrl = "http://18.231.120.244:5000";
 
     // API call to backend to check credentials
     try {
