@@ -7,7 +7,7 @@ const ItemCountSummary = () => {
 
   useEffect(() => {
     // Fetch data from backend API
-    axios.get('http://localhost:5000/api/items')
+    axios.get('http://54.94.34.169:5000/api/items')
       .then(response => {
         setItems(response.data);
         setLoading(false);
