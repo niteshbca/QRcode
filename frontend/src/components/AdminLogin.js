@@ -12,7 +12,7 @@ const AdminLogin = () => {
     e.preventDefault();
 
     // Use the API URL from the .env file
-    const apiUrl = process.env.REACT_APP_BACKEND_URL;
+    const apiUrl = "http://localhost:5000";
 
     // API call to backend to check credentials
     try {
