@@ -17,7 +17,7 @@ const InventoryPage = () => {
       }
 
       try {
-        const response = await axios.get("http://18.231.120.244:5000/api/getDeliveryItems", {
+        const response = await axios.get("http://15.228.204.180:5000/api/getDeliveryItems", {
           params: { godown: godown.name } // Pass godown name as a query parameter
         });
 
