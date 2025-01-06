@@ -14,7 +14,7 @@ const LoginStaff = () => {
 
     try {
       // Axios POST request to login API
-      const response = await axios.post("http://18.231.120.244:5000/api/auth/login", {
+      const response = await axios.post("15.228.204.180:5000/api/auth/login", {
         email,
         password
       });
