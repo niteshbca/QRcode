@@ -19,7 +19,7 @@ const DeliveryPage = () => {
   const handleAddClick = async () => {
     try {
       console.log('Sending request to backend with input:', inputValue, 'and godown:', godown.name);
-      const response = await axios.post('http://15.228.204.180:5000/api/checkAndAddItem', {
+      const response = await axios.post('http://52.67.26.214:5000/api/checkAndAddItem', {
         input: inputValue,
         godownName: godown.name,  // Include godown name in the request body
       });
