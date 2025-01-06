@@ -14,7 +14,7 @@ const LoginStaff = () => {
 
     try {
       // Axios POST request to login API
-      const response = await axios.post("15.228.204.180:5000/api/auth/login", {
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/auth/login`, {
         email,
         password
       });
