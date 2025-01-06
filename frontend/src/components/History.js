@@ -8,7 +8,7 @@ const History = () => {
     // Fetch sales data from the backend
     const fetchSalesData = async () => {
       try {
-        const response = await fetch('http://18.231.120.244:5000/api/sales');
+        const response = await fetch('http://15.228.204.180:5000/api/sales');
         const data = await response.json();
         setSalesData(data);
       } catch (error) {
